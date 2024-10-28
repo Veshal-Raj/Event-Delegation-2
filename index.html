@@ -7,7 +7,41 @@
 </head>
 <link rel="stylesheet" href="./styles.css">
 <body>
-    
+    <div class="container">
+        <div class="product-container">
+            <h1>Product List</h1>
+            <ul id="product-list">
+                <li class="product-item" data-product-id="1">
+                    <img src="./assets/images/Google_Pixel_8.webp" alt="Google Pixel 8">
+                    <p>Google Pixel 8</p>
+                    <p>$1000</p>
+                    <button class="add-to-cart" id="google-pixel-8">Add to Cart</button>
+                </li>
+                <li class="product-item" data-product-id="2">
+                    <img src="./assets/images/iPhone_15.webp" alt="iPhone 15">
+                    <p>iPhone 15</p>
+                    <p>$2000</p>
+                    <button class="add-to-cart" id="iPhone-15">Add to Cart</button>
+                </li>
+                <li class="product-item" data-product-id="3">
+                    <img src="./assets/images/samsung.webp" alt="Samsung Galaxy S22">
+                    <p>Samsung Galaxy S22</p>
+                    <p>$1800</p>
+                    <button class="add-to-cart" id="samsung">Add to Cart</button>
+                </li>
+                <li class="product-item" data-product-id="4">
+                    <img src="./assets/images/sonny.jpg" alt="Sonny XL">
+                    <p>Sonny XL</p>
+                    <p>$1200</p>
+                    <button class="add-to-cart" id="sonny">Add to Cart</button>
+                </li>
+            </ul>
+        </div>
+        <div class="selected-product">
+            <h1>Selected Product</h1>
+            <div id="selected-product-details"></div>
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

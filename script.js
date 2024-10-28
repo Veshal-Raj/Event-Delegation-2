@@ -1,7 +1,7 @@
 const productList = document.getElementById("product-list");
 const selectedProductDetailsDiv = document.getElementById("selected-product-details");
 
-productList.addEventListener("click", function(e) {
+function addProductHandler(e) {
     let productId = e.target.getAttribute("id");
     const childElement = document.getElementById(productId);
     let parentElement = childElement.parentElement;
@@ -11,4 +11,6 @@ productList.addEventListener("click", function(e) {
         button.remove();
     }
     selectedProductDetailsDiv.appendChild(clonedParentElement);
-})
+}
+
+productList.addEventListener("click", addProductHandler)

@@ -12,7 +12,6 @@ body {
     gap: 20px;
     align-items: flex-start;
     margin-top: 5rem;
-    border: 1px solid #e31c1c;
 }
 
 .product-container, .selected-product {

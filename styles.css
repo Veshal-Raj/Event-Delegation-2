@@ -3,7 +3,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #e0e0e0;
     font-family: Arial, sans-serif;
 }
@@ -12,7 +11,7 @@ body {
     display: flex;
     gap: 20px;
     align-items: flex-start;
-    margin-top: 75rem;
+    margin-top: 5rem;
 }
 
 .product-container, .selected-product {
